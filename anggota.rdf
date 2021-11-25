@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+<!--<rdf:Description rdf:about="anggota1">
+    <foaf:name>Amru</foaf:name>
+    <dc:nim>201401002</dc:nim>
+    <dc:email>amruganteng@gmail.com</dc:email>
+    <foaf:gambar>C:\xampp\htdocs\amru\Almond.jpg</foaf:gambar>
+</rdf:Description>-->
+
+<foaf:PersonalProfileDocument rdf:about="http://localhost/amru/anggota.rdf"> 
+  	<rdfs:label> Provinces of Indonesia </rdfs:label>
+    <foaf:maker rdf:resource="http://localhost/amru/"/>
+    <foaf:primaryTopic rdf:resource="http://localhost/amru/"/>
+</foaf:PersonalProfileDocument>
+
+<foaf:Person rdf:about="http://localhost/amru/">
+    <owl:sameAs>
+        <rdf:Description rdf:about="anggota2">
+            <rdfs:label>taik</rdfs:label>
+            <rdfs:nim>201401002</rdfs:nim>
+            <rdfs:email>amruganteng@gmail.com</rdfs:email>
+            <rdfs:gambar>C:\xampp\htdocs\amru\Almond.jpg</rdfs:gambar>
+        </rdf:Description>
+    </owl:sameAs>
+
+    <owl:sameAs>
+        <rdf:Description rdf:about="anggota2">
+            <rdfs:label>Amru</rdfs:label>
+            <rdfs:nim>201401002</rdfs:nim>
+            <rdfs:email>amruganteng@gmail.com</rdfs:email>
+            <rdfs:gambar>C:\xampp\htdocs\amru\Almond.jpg</rdfs:gambar>
+        </rdf:Description>
+    </owl:sameAs>
+</foaf:Person>
+
+</rdf:RDF>
